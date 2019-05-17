@@ -1,5 +1,7 @@
 package jp.co.cis.sort;
 
+import java.util.Arrays;
+
 /**
  * バブルソートで並び替えるクラスです。
  *
@@ -13,6 +15,9 @@ public class BubbleSort {
 	 */
 	public int[] sort(int[] ary) {
 		// TODO バブルソートで並び替える処理を実装してください。
+		
+		Arrays.sort(ary);
+		
 		return ary;
 	}
 
